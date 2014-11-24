@@ -6,7 +6,7 @@ The csv contains data on the voting weights for the EU members across different 
 # SOURCE:
 
 * [The Council of the European Union. 2012.](http://europa.eu/legislation_summaries/institutional_affairs/treaties/nice_treaty/nice_treaty_council_en.htm)
-* [Bräuninger. 2005. Indices of Power (IOP 2.0).](http://www.tbraeuninger.de/IOP.html)
+* [Bräuninger. 2005. Indices of Power (IOP 2.0) Manual.](http://www.tbraeuninger.de/download/)
 
 # VARIABLES:
 
