@@ -1,7 +1,7 @@
 id,name,eu9,eu10,eu12,eu15,eu25_bv,eu25_bp,eu25_av,eu25_ap
 59,Austria,NA,NA,NA,4,4,81,10,81
 64,Belgium,5,5,5,5,5,102,12,102
-10,Bulgaria,NA,NA,NA,NA,NA,NA,NA,NA
+10,Bulgaria,NA,NA,NA,NA,NA,NA,10,79
 51,Cyprus,NA,NA,NA,NA,2,8,4,8
 68,Czech Republic,NA,NA,NA,NA,5,103,12,103
 21,Denmark,3,3,3,3,3,53,7,53
@@ -20,9 +20,10 @@ id,name,eu9,eu10,eu12,eu15,eu25_bv,eu25_bp,eu25_av,eu25_ap
 8,Netherlands,5,5,5,5,5,158,13,158
 74,Poland,NA,NA,NA,NA,8,387,27,387
 63,Portugal,NA,NA,5,5,5,100,12,100
-23,Romania,NA,NA,NA,NA,NA,NA,NA,NA
+23,Romania,NA,NA,NA,NA,NA,NA,14,228
 1,Slovakia,NA,NA,NA,NA,3,54,7,54
 60,Slovenia,NA,NA,NA,NA,3,20,4,20
 27,Spain,NA,NA,8,8,8,394,27,394
 35,Sweden,NA,NA,NA,4,4,89,10,89
 44,United Kingdom,10,10,10,10,10,592,29,592
+76,Croatia,NA,NA,NA,NA,NA,NA,7,43
