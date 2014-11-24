@@ -1,4 +1,4 @@
-R function for calculating the one-dimensional unanimity / QMV core size given actors' preferences and voting weights. Can be used to calculate the core size in the EU Council of Ministers. The `eucouncil_weights.csv` contains data on the EU Council voting weights (EU9-EU25), the corresponding `eucouncil_weights.md` describes the data. 
+R function for calculating the one-dimensional unanimity / QMV core size given actors' preferences and voting weights. Can be used to calculate the core size in the EU Council of Ministers. The `eucouncil_weights.csv` contains data on the EU Council voting weights (EU9-EU28), the corresponding `eucouncil_weights.md` describes the data. 
 
 
 # Example
