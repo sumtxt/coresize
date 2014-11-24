@@ -1,7 +1,7 @@
 Data: EU COUNIL VOTING REGIMES
 ==============================
 
-The csv contains data on the voting weights for the EU members across different treaties EU9,EU12,EU15,EU25 (Amsterdam), EU25 (Nice) and the corresponding voting rules. Please, consult the first source for further information. The data can be used with the coresize.R function. 
+The csv contains data on the voting weights for the EU members across different treaties EU9,EU12,EU15,EU25 (Amsterdam), EU25-7 (Nice) and the corresponding voting rules. Please, consult the first source for further information. The data can be used with the coresize.R function. 
 
 # SOURCE:
 
@@ -55,16 +55,12 @@ The csv contains data on the voting weights for the EU members across different 
 *  `start =as.Date("2004-11-01"); end = as.Date("2006-12-31") `
 *  `qmin=13; qvote=232; qpop=2793 `
 
+## EU27 (Nice Treaty) 
 
-# MAKE DATA 
+*  `start =as.Date("2007-01-01"); end = as.Date("2013-06-30") `
+*  `qmin=14; qvote=255; qpop= 2983`
 
-```
-name  <- c("eu9", 		 "eu10", 	  "eu12", "eu15", "eu25a", "eu25b")
-start <- c("1973-01-01", "1981-01-02", "1986-01-02", "1995-01-02", "2004-05-02", "2006-12-31")
-end 	<- c("1981-01-01", "1986-01-01", "1995-01-01", "2004-05-01", "2004-10-31", NA)
-qmin  <- c(6,  6,  8,  10, 1 , 13)
-qvote <- c(41, 45, 54, 62, 88, 232)
-qpop  <- c(NA, NA, NA, NA, NA, 2793)
+## EU28 (Nice Treaty / Croatia Accession Treaty) 
 
-thresholds <- data.frame(start=start, end=end, name=name, qmin=qmin, qvote=qvote,qpop=qpop)
-```
+*  `start =as.Date("2013-07-01"); end = as.Date("2014-10-31") `
+*  `qmin=15; qvote=260; qpop= 3010`
