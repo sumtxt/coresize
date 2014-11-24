@@ -1,7 +1,7 @@
 Data: EU COUNIL VOTING REGIMES
 ==============================
 
-The csv contains data on the voting weights for the EU members across different treaties EU9,EU12,EU15,EU25 (Amsterdam), EU25-7 (Nice) and the corresponding voting rules. Please, consult the first source for further information. The data can be used with the coresize.R function. 
+The csv contains data on the voting weights for the EU members across different treaties EU9,EU12,EU15,EU25 (Amsterdam), EU25-8 (Nice) and the corresponding voting rules. Please, consult the first source for further information. The data can be used with the coresize.R function. 
 
 # SOURCE:
 
