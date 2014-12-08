@@ -45,22 +45,28 @@ The csv contains data on the voting weights for the EU members across different 
 * `start =as.Date("1995-01-02"); end = as.Date("2004-05-01"))`
 * `qmin=10; qvote=62`
 	
-## EU25 (Amsterdam Treaty)
+## EU25 (transition period)
 
+* Legal Basis: EC Treaty [(CELEX:12002E/TXT)](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12002E/TXT), Article 205 amended by Accession Treaty [(CELEX:12003T/TXT)](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12003T/TXT), Article 26 
 * `start =as.Date("2004-05-02"); end = as.Date("2004-10-31")`
-* `qmin=0; qvote=88; qpop=0`
+* `qmin=17; qvote=88; qpop=0`
 
-## EU25 (Nice Treaty)
+## EU25
 
+* Legal Basis: 
+	- EC Treaty [(CELEX:12002E/TXT)](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12002E/TXT), Article 205 amended by Accession Treaty [(CELEX:12003T/TXT)](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12003T/TXT), Article 12
+	- for population weights: Council's Rules of Procedure (2004/338/EC) [(CELEX:32004D0338)](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004D0338) as amended by Council Decision [(CELEX:32006D0034)](http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1418028936134&uri=CELEX:32006D0034) and [(CELEX:32004D0701)](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004D0701)
 *  `start =as.Date("2004-11-01"); end = as.Date("2006-12-31") `
-*  `qmin=13; qvote=232; qpop=2793 `
+*  `qmin=13; qvote=232;`
+*  November 1, 2004 to December 31, 2005: `qpop=2843314`
+*  for 2006: `qpop=2860209`
 
-## EU27 (Nice Treaty) 
+## EU27 
 
 *  `start =as.Date("2007-01-01"); end = as.Date("2013-06-30") `
 *  `qmin=14; qvote=255; qpop= 2983`
 
-## EU28 (Nice Treaty / Croatia Accession Treaty) 
+## EU28 
 
 *  `start =as.Date("2013-07-01"); end = as.Date("2014-10-31") `
 *  `qmin=15; qvote=260; qpop= 3010`
