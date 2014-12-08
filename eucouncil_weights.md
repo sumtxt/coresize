@@ -46,7 +46,7 @@ Notice, all dates are inclusive.
 
 * Legal Basis: EC Treaty [(CELEX:12002E/TXT)](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12002E/TXT), Article 205 amended by Accession Treaty [(CELEX:12003T/TXT)](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12003T/TXT), Article 26 
 * `start =as.Date("2004-05-02"); end = as.Date("2004-10-31")`
-* `qmin=17; qvote=88`
+* `qmin=15; qvote=88`
 * vote weights variable: `v25t`
  
 ## EU25
